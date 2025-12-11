@@ -1,11 +1,50 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>login.tw.cn</title>
+
+    <style>
+        /* CSS 用于设置背景图片 */
+        body {
+            /* 移除浏览器默认的边距 */
+            margin: 0; 
+            /* 确保 body 至少占满整个视口高度，垂直居中才有效 */
+            min-height: 100vh; 
+            
+            /* --- 背景图片设置 --- */
+            
+            /* 1. 指定图片路径 */
+            background-image: url('login.jpg'); 
+            
+            /* 2. **禁止图片平铺** */
+            background-repeat: no-repeat; 
+            
+            /* 3. **图片上下左右居中** */
+            background-position: center center; 
+            
+            /* 4. 图片固定，不随页面滚动 */
+            background-attachment: fixed;
+            
+            /* 5. 可选：如果希望图片覆盖整个背景， uncomment 这一行 */
+            /* background-size: cover; */
+        }
+
+        /* 示例内容样式，确保能看到背景图 */
+        .content {
+            text-align: center;
+            padding-top: 50px;
+            color: #333; /* 文本颜色 */
+            background-color: rgba(255, 255, 255, 0.7); /* 半透明背景，便于阅读 */
+            width: 80%;
+            margin: 50px auto;
+            padding: 20px;
+            border-radius: 8px;
+        }
+    </style>
 </head>
 <body>
-<img href="/login.jpg">
+    <audio src="gxdy.mp3" autoplay loop hidden></audio>
 </body>
 </html>
